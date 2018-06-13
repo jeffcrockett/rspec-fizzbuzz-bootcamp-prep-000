@@ -3,10 +3,13 @@
 def fizzbuzz(num)
   if num % 3 == 0 && num % 5 == 0 do
     return "FizzBuzz"
-  elsif num % 3 == 0 && num % 5 != 0 
+  end
+  elsif num % 3 == 0 && num % 5 != 0 do
     return "Fizz"
-  elsif num % 3 != 0 && num % 5 == 0  
+  end
+  elsif num % 3 != 0 && num % 5 == 0 do
     return "Buzz"
+  end
   else 
     return nil 
   end
